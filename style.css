@@ -1,0 +1,50 @@
+.hidden {
+    display: none;
+}
+* {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    color: rgb(226, 239, 250);
+}
+#container {
+    padding-top: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-rows: 100px 50px 70px 150px;
+}
+.bgImgs{
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+}
+#quote {
+    display: inline-block;
+    width: 500px;
+}
+#clock {
+    font-size: 70px;
+    font-family: 'Roboto Slab', serif;
+}
+li {
+    list-style: none;
+}
+input {
+    width: 300px;
+    height: 18px;
+    background-color: rgb(239, 239, 239);
+    opacity: 80%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: black;
+}
+input:focus {
+    outline: none;
+}
+button {
+    color: black;
+}
